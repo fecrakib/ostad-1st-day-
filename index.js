@@ -105,4 +105,16 @@ let mul=function(a,b){
 }
 console.log(mul(20,10));
 console.log(mul(10,10));
+console.log(Object.keys(sohel));
+console.log(Object.values(shoelPro));
+console.log(Object.values(sohel));
+// Arrow Function
+let add2=(...x)=>{
+    let sum=0;
+    for(let a of x)
+     sum=sum+a;
+    
+    return sum;
 
+}
+console.log(add2(2,3,4,5));
