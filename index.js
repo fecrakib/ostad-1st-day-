@@ -53,4 +53,35 @@ var nam="Rakib";
 nam="Karim";//Reasing...
 var nam= "Jadid";//Re-declareable.
 console.log(nam);
+var Mycountry=['Dhaka','Rangpur','Barishal','Khulna','Mymensing'];
+for(let mycity of Mycountry){
+    console.log(mycity);
+}
+// create object
+var sohel={
+    shirt:true,
+    shirtColore:"offwhite",
+    smile:true,swatter:true,
+    swatterColor:"black"
+}
+console.log(sohel['shirtColore']);
+// nested object 
+let shoelPro={
+    shirt:{
+        color:"offwhite",
+        quality:"Good",
+        price:1600
+    },
+    swatter:{
+        color:"Black",
+        quality:"Good",
+        price:2100
 
+    },
+    face:{
+        similing:"always",
+        chosma:"yes",
+        teeth:"white big"
+    }
+}
+console.log(shoelPro['face']['teeth']);
