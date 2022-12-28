@@ -85,3 +85,24 @@ let shoelPro={
     }
 }
 console.log(shoelPro['face']['teeth']);
+function subtraction(){
+    return 10-5;
+}
+console.log(subtraction());
+function add(a,b){
+    let x=a;
+    let y=b;
+    let sum =x+y;
+    return sum;
+}
+let result=add(20,50);
+console.log(result);
+let ressult2=add(20,20);
+console.log(result)
+// anonymous function
+let mul=function(a,b){
+    return a*b;
+}
+console.log(mul(20,10));
+console.log(mul(10,10));
+
